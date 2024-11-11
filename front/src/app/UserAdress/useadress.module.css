@@ -1,0 +1,83 @@
+.btnadress{
+    color: red !important;
+    font-family: tanha !important;
+    font-weight: bold !important;
+    border-color: red !important;
+}
+.titleadress{
+    font-family: tanha !important;
+    font-weight: lighter !important;
+    border-bottom: 1px solid red;
+    width: 10%;
+}
+
+.Boxadress{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+
+.boxulitem{
+    display: flex;
+    color: rgb(155, 155, 154);
+    font-size: small;
+}
+
+.boxmainadrees{
+    display: flex !important;
+    align-items: center;
+
+}
+
+.boxmainadrees1{
+ 
+
+}
+
+.boxgrid{
+    border: 1px solid rgb(163, 161, 161);
+    margin-top: 10px !important;
+    border-radius: 10px;
+
+}
+.streatdress{
+    font-family: tanha !important;
+font-size: medium !important;
+font-weight: bold !important;
+
+}
+.boxul{
+    margin-top: 15px;
+}
+
+.boxltrmap{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    
+}
+@media only screen and (max-width: 480px) {
+    .titleadress{
+        font-family: tanha !important;
+        font-weight: lighter !important;
+        border-bottom: 1px solid red;
+        width: 20%;
+        padding: 1px;
+        white-space: nowrap;
+        font-size: medium !important;
+    }
+    .streatdress{
+        font-family: tanha !important;
+    font-size: small !important;
+    font-weight: bold !important;
+    
+    }
+    .boxulitem{
+        display: flex;
+        color: rgb(155, 155, 154);
+        font-size: smaller !important;
+    }
+
+
+    }

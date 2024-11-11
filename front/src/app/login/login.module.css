@@ -1,0 +1,254 @@
+@font-face {
+    font-family: "tanha";
+    src: url(../fonts/Tanha.eot);
+    src: url(../fonts/Tanha.eot?#iefix) format("embedded-opentype"),
+      url(../fonts/Tanha.woff2) format("woff2"),
+      url(../fonts/Tanha.woff) format("woff"),
+      url(../fonts/Tanha.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  .divinput.MuiInputBase-input::placeholder {
+    font-family: 'tanha' !important;
+  
+    color: #ff0000 !important; /* رنگ دلخواه خود را اینجا قرار دهید */
+    opacity: 1; /* برای نمایش کامل رنگ، اگر نیاز باشد */
+  }
+  .boxregister{
+  }
+  
+  .containerlogin {
+    opacity: 0.9;
+    font-family: 'tanha' !important;
+    background:url('/palletWhite100.e9a55bda.webp') ;
+    text-align: center !important;
+    background-repeat: repeat;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: stylinbak;
+    height: auto !important;
+    text-align: center !important;
+    height: auto !important ;
+ 
+
+
+  }
+
+
+  @keyframes stylinbak {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+  .animatedimg{
+    text-align: center !important;
+    display: flex !important;
+    align-items: center;
+    padding:10px;
+    justify-content: center; 
+  }
+
+
+.bordercontainer {
+  display: inline-block; /* برای جلوگیری از اشغال فضای اضافی */
+  position: relative; /* برای تنظیم موقعیت */
+  width: 300px; /* عرض */
+  height: 300px; /* ارتفاع */
+}
+
+.imglogo {
+  border-radius: 50%; /* گرد کردن تصویر */
+  width: 100%; /* عرض تصویر */
+  height: 100%; /* ارتفاع تصویر */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important; /* سایه تصویر */
+}
+
+.border {
+  position: absolute; /* قرارگیری مطلق */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  border: 2px dashed; /* حاشیه */
+  border-radius: 50%; /* گرد کردن حاشیه */
+  animation: rotate-border 50s linear infinite, change-border-color 2s linear infinite; /* انیمیشن چرخش و تغییر رنگ */
+  pointer-events: none; /* جلوگیری از تعامل با حاشیه */
+}
+
+@keyframes rotate-border {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+
+
+@keyframes change-border-color {
+  0%, 100% {
+      border-color: rgb(80, 73, 73); /* رنگ قرمز */
+  }
+  50% {
+      border-color: rgb(209, 62, 62); /* رنگ سیاه */
+  }
+}
+  
+  .boxaval {
+  
+    align-items: center;
+    justify-content: center;    height: auto !important;
+    text-align: center !important;
+    display: flex !important;
+    margin-bottom: 5%;
+  
+  }
+  
+  .boxinput {
+    font-family: 'tanha' !important;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  
+    height: auto;
+    width: auto;
+    margin-top: 1%;
+    padding: 3% !important;
+    width: 50%;
+   
+  }
+  
+  .divinput {
+    text-align: center !important;
+  
+    /* margin-left: 10% !important;
+      margin-right: 10% !important; */
+    margin-top: 2% !important;
+  
+    font-family: 'tanha' !important;
+  
+    margin-bottom: 2% !important;
+  
+  }
+  
+  
+  
+  .titletext {
+    font-family: 'tanha' !important;
+    margin-bottom: 5% !important;
+  }
+  .btn {
+    text-align: center !important;
+    color: #fff !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    margin-top: 3% !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px !important;
+  }
+  
+  
+  @media only screen and (max-width: 480px) {
+    .imglogo {
+      /* height: auto !important; */
+      border: 1px solid #ffff !important;
+      /* border-radius: 50% !important;
+      padding: 10px !important;
+      margin: 40px !important; */
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+    }
+  
+    .contentlogin {
+      font-family: 'tanha' !important;
+      align-items: center !important;
+      justify-content: center;
+      height: auto !important;
+      background-color: #fff !important;
+  
+  
+  
+    }
+  
+    .titletext {
+      margin: 0;
+      font-family: 'tanha' !important;
+      font-weight: 367;
+      font-size: 1.125rem !important;
+      line-height: 1.235;
+      letter-spacing: 0.00735em;
+    }
+  
+    .btn {
+  
+      text-align: center !important;
+      color: #fff !important;
+      font-size: 13px !important;
+      font-weight: bold !important;
+  
+      margin-top: 3% !important;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px !important;
+  
+    }
+  
+    .boxaval {
+  
+      align-items: center;
+      justify-content: center;
+      height: auto !important;
+      text-align: center !important;
+      display: flex !important;
+      margin-bottom: 3%;
+   
+    }
+  
+    .boxinput {
+      font-family: 'tanha' !important;
+  
+      font-family: 'tanha' !important;
+      /* From https://css.glass */
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+  
+  
+      border-radius: 10% !important;
+      height: auto;
+      width: auto;
+      margin-top: 10%;
+      padding: 4% !important;
+      width: 100%;
+    }
+    .bordercontainer {
+      display: inline-block; /* برای جلوگیری از اشغال فضای اضافی */
+      position: relative; /* برای تنظیم موقعیت */
+      width: 200px; /* عرض */
+      height: 200px; /* ارتفاع */
+    }
+  
+  
+  }
+  

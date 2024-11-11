@@ -1,0 +1,191 @@
+.boxacc{
+    display: flex;
+    width: auto;
+    height: auto;
+margin-top: 1rem;
+}
+
+.boxrtl{
+    flex: 1;
+
+}
+.boxltr{
+    flex: 3;
+    border-radius: 10px;
+    border: 1px solid rgba(171, 160, 160, 0.625);
+    padding: 15px;
+    
+}
+.boxitem{
+    border: 1px solid rgba(171, 160, 160, 0.625);
+    padding: 1rem;
+    display: flex;
+    
+
+}
+.boxitem:nth-child(1){
+    /* border-top-left-radius: none;
+    border-top-right-radius: 4%; */
+}
+
+.iconitem{
+    color: #F5003B !important;
+
+}
+
+.linkacc{
+    display: block;
+    font-family: tanha !important;
+    font-size: medium;
+    text-decoration: none !important;
+    color: black;
+  margin-right: 10px;
+}
+
+
+
+.linkacc:hover{
+    display: block;
+    font-weight: bold;
+    font-family: tanha !important;
+    font-size: medium;
+    text-decoration: none;
+    color: rgb(52, 48, 48);
+    
+  
+}
+
+.texttitle{
+    margin-bottom: 20px;
+}
+
+.boxitemnav{
+border-top: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.actionorder{
+    
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border: 1px solid rgba(171, 160, 160, 0.625);
+
+}
+.boxitemnav li:nth-child(1){
+    /* text-decoration:1px solid solid !important;
+    border-bottom: 3px solid red;
+    border-width: 4px; */
+
+}
+
+.boxitemnav li:hover{
+    text-decoration:1px solid solid !important;
+    border-bottom: 3px solid red;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-width: 4px;
+    transition: all 0.6s ease; /* ایجاد یک انتقال نرم برای تمام تغییرات */
+
+font-weight: bold;
+}
+
+
+
+
+.containerproduct{
+    border: 1px solid rgba(171, 160, 160, 0.625);
+    margin-top: 15px;
+    /* border-radius: 10px; */
+    /* padding: 5px; */
+    border-radius: 10px;
+    
+}
+
+.boxitemproduct{
+    border-right: none !important;
+    border-left: none !important;
+    border: 1px solid rgba(171, 160, 160, 0.625);
+border-top: none;
+padding: 10px;
+
+
+
+
+}
+.boxitemproduct:last-child{
+    border-bottom: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.codeorder{
+    display: flex;
+  
+}
+.titleorder{
+    font-size: medium;
+    font-family: tanha !important;
+  
+    color: rgba(5, 4, 4, 0.713);
+}
+
+.numberorder{
+    font-size: medium;
+    font-family: tanha !important;
+    color: black;
+}
+
+.imgorderd{
+    width: 150px;
+    height: auto;
+    padding: 4px;
+}
+
+.boximg{
+    display: flex;
+    
+    flex-wrap: wrap;
+
+}
+.titlefactor{
+    color: cornflowerblue;
+    font-family: tanha !important;
+    font-weight: lighter !important;
+}
+
+
+
+
+
+.icondeliver{
+    color: green;
+}
+.boxdeliver{
+    display: flex !important;
+    margin-top: 10px;
+    align-items: center !important;
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .boxitemnav li{
+        font-size: small !important;
+    }
+    .boxitemnav li:hover{
+        text-decoration:1px solid solid !important;
+        border-bottom: 3px solid red;
+        border-width: 2px;
+        border-top:none;
+        border-right:none;
+        border-left:none;
+    font-weight: bold;
+    }
+    
+    
+    
+}

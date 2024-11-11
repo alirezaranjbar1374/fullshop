@@ -1,0 +1,17 @@
+.BoxContainer{
+    background:"yellow";
+    position: relative;
+}
+.mapcontainer{
+    /* position: absolute;
+    z-index: -1;
+    top:10px; */
+}
+
+
+
+.Boxinput{
+    /* background-color: rgba(240, 248, 255, 0.88);
+    z-index: 10;
+position: relative; */
+}

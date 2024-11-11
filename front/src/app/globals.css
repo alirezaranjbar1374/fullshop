@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+
+@font-face {
+  font-family: "vazir";
+  src: url("../app/fonts/Vazir.eot");
+  src: url("../app/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../app/fonts/Vazir.woff2") format("woff2"),
+    url("../app/fonts/Vazir.woff") format("woff"),
+    url("../app/fonts/Vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "tanha";
+  src: url("../app/fonts/Tanha.eot");
+  src: url("../app/fonts/Tanha.eot?#iefix") format("embedded-opentype"),
+    url("../app/fonts/Tanha.woff2") format("woff2"),
+    url("../app/fonts/Tanha.woff") format("woff"),
+    url("../app/fonts/Tanha.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("../app/fonts/Roboto-Regular.eot");
+  src: url("../app/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../app/fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../app/fonts/Roboto-Regular.woff") format("woff"),
+    url("../app/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-family: tanha !important;
+
+}
+h1,h2,h3,h4,h5,h6,p,span,a,strong {
+  font-family: 'tanha' !important;
+
+}
+.MuiCard-root::-webkit-scrollbar {
+    display: none;
+}
+
+

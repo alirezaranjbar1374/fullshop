@@ -1,0 +1,176 @@
+.boxacc{
+    display: flex;
+    width: auto;
+    height: auto;
+margin-top: 1rem;
+flex-wrap: wrap;
+}
+
+.boxrtl{
+    flex: 1;
+
+}
+.boxltr{
+    flex: 3;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid rgba(171, 160, 160, 0.625);
+    padding: 10px !important;
+    
+    
+}
+.boxitem{
+    border: 1px solid rgba(171, 160, 160, 0.625);
+    padding: 1rem;
+    display: flex;
+    
+
+}
+.boxitem:nth-child(1){
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.boxitem:nth-last-child(1){
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.iconitem{
+    color: #F5003B !important;
+
+}
+
+.linkacc{
+    display: block;
+    font-family: tanha !important;
+    font-size: medium;
+    text-decoration: none;
+    color: black;
+  margin-right: 10px;
+}
+
+
+
+.linkacc:hover{
+    display: block;
+    font-weight: bold;
+    font-family: tanha !important;
+    font-size: medium;
+    text-decoration: none;
+    color: rgb(52, 48, 48);
+    
+  
+}
+
+.texttitle{
+    margin-bottom: 20px;
+}
+
+.boxitemnav{
+border-top: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.actionorder{
+    
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border: 1px solid rgba(171, 160, 160, 0.625);
+
+}
+
+
+
+
+
+.containerproduct{
+    border: 1px solid rgba(171, 160, 160, 0.625);
+    margin-top: 15px;
+    /* border-radius: 10px; */
+    /* padding: 5px; */
+    border-radius: 10px;
+    
+}
+
+.boxitemproduct{
+    border-right: none !important;
+    border-left: none !important;
+    border: 1px solid rgba(171, 160, 160, 0.625);
+border-top: none;
+padding: 20px;
+
+
+
+
+}
+.boxitemproduct:last-child{
+    border-bottom: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.codeorder{
+    display: flex;
+  
+}
+.titleorder{
+    font-size: medium;
+    font-family: tanha !important;
+  
+    color: rgba(5, 4, 4, 0.713);
+}
+
+.numberorder{
+    font-size: medium;
+    font-family: tanha !important;
+    color: black;
+}
+
+.imgorderd{
+    width: 150px;
+    height: auto;
+    padding: 4px;
+}
+
+.boximg{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.titlefactor{
+    color: cornflowerblue;
+    font-family: tanha !important;
+    font-weight: lighter !important;
+}
+.boxulcontainer{
+    border-radius: 10px;
+    background-color: #F5003B;
+}
+
+@media only screen and (max-width: 480px) {
+.BoxContainer{
+    padding: 0px !important;
+ 
+
+}
+.boxacc{
+    display: flex;
+    width: auto;
+    height: auto;
+margin-top: 1rem;
+flex-wrap: wrap;
+flex-flow: column !important;
+}
+
+
+.boxrtl{
+    flex: 1;
+margin-bottom: 20px;
+}
+
+
+
+}

@@ -1,0 +1,64 @@
+
+.choseimg{
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+}
+.containerbox{
+    border-radius: 20px !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 15px;
+    color: black !important;
+    text-align: center !important;
+}
+
+.boxconainer{
+ border: 1px solid ;
+ border-color: aliceblue;
+ border-top: none;
+
+}
+.boxbtn{
+    display: flex;
+
+}
+.btn{
+    color: black !important;
+
+}
+.oofred{
+    font-size: small !important;
+    color: #ffff !important;
+    background-color: red !important;
+    border-radius: 50% !important;
+   margin-top: 10px !important;
+}
+.btnprice{
+    color: rgb(117, 117, 117) !important;
+    text-decoration-line: line-through !important;
+}
+.textchoise{
+    text-align: center;
+    font-size: xx-large !important;
+}
+@media only screen and (max-width: 480px) {
+    .choseimg{
+        height: 120px;
+    }
+    .oofred{
+        height: 20px !important;
+        font-size: 15px !important;
+        width: 20px !important;
+        color: #ffff !important;
+        background-color: red !important;
+        border-radius: 50% !important;
+       margin-top: 10px !important;
+   
+       right: 10px;
+    }
+
+    .textchoise{
+        text-align: center;
+        font-size: large !important;
+    }
+      }

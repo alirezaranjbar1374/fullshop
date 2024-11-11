@@ -1,0 +1,85 @@
+.boxasli {
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    height: auto;
+    margin: 0;
+}
+
+.storycontainer {
+
+}
+.boxstory{
+    display: flex;
+    flex-direction: column;
+    
+}
+.story {
+    width: 120px; /* عرض دایره */
+    height: 120px; /* ارتفاع دایره */
+    border-radius: 50%; /* شکل دایره */
+    overflow: hidden; /* مخفی کردن تصاویر خارج از دایره */
+    border: 4px solid transparent; /* رنگ دور دایره */
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(to right, #e1306c, #fca000); /* حاشیه رنگی */
+    background-clip: content-box, border-box; /* حاشیه رنگی را درون دایره قرار می‌دهد */
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s; /* انیمیشن */
+}
+
+.story:hover {
+    background-image: linear-gradient(white, white), 
+    linear-gradient(to right, #ff0055, #ff0101); 
+}
+
+.story img {
+    width: 100%; /* تصویر تمام دایره را پر کند */
+    height: 100%; /* تصویر تمام دایره را پر کند */
+    object-fit: cover; /* حفظ نسبت ابعاد تصویر */
+    border-radius: 50%; /* دایره کردن تصویر */
+}
+
+.title {
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 8px; /* فاصله بین دایره و عنوان */
+    color: #333; /* رنگ متن */
+    font-size: 15px; /* اندازه متن */
+    font-family: tanha !important;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+    .story {
+        width: 70px; /* عرض دایره */
+        height: 70px; /* ارتفاع دایره */
+        border-radius: 50%; /* شکل دایره */
+        overflow: hidden; /* مخفی کردن تصاویر خارج از دایره */
+        border: 4px solid transparent; /* رنگ دور دایره */
+        background-image: linear-gradient(white, white), 
+                          linear-gradient(to right, #e1306c, #fca000); /* حاشیه رنگی */
+        background-clip: content-box, border-box; /* حاشیه رنگی را درون دایره قرار می‌دهد */
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.5s; /* انیمیشن */
+    }
+    .title {
+        text-align: center;
+        margin-top: 8px; /* فاصله بین دایره و عنوان */
+        color: #333; /* رنگ متن */
+        font-size: 11px; /* اندازه متن */
+        font-family: tanha !important;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+    
+    
+}

@@ -1,0 +1,25 @@
+
+.containernavbar{
+    background: #F5003B  !important;
+}
+
+.Tollbar{
+    display:flex!important;
+    align-items: center !important;
+    color:aliceblue;
+
+    justify-content: space-around;
+
+}
+.endbox{
+    display:flex;
+    justify-content: left;
+    color:aliceblue;
+    align-items: center;
+}
+@media only screen and (max-width: 480px) {
+    .appbarcontainer{
+        display: none;
+    }
+      }
+

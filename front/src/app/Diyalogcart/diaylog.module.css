@@ -1,0 +1,51 @@
+.diaylogbtndanger{
+    color:"#ffff" !important;
+    background:"red" !important ;
+    margin:10 !important;
+    font-size:17px !important ;
+    font-family: tanha !important;
+  
+}
+.Boxinput1 {
+    position: relative;
+    top: 70px;
+    z-index: 1520;
+    color:"#ffff" ;
+border-radius: 10px;
+width: 100%;
+}
+
+.Boxinput2 {
+    position: relative;
+    top: 100px;
+    z-index: 1520;
+    color:"#ffff" ;
+border-radius: 10px;
+width: 100%;
+}
+.Boxinput2 input{
+    padding:6px;
+    color:"#ffff" ;
+border-radius: 10px !important;
+width: 40%;
+}
+.Boxinput1 input{
+    padding:6px;
+    color:"#ffff" ;
+border-radius: 10px !important;
+width: 40%;
+}
+.diaylogsucc{
+    color:"#ffff" ;
+    background:"blue" ;
+    margin:10;
+    font-size:17px ;
+    font-family: tanha !important;  
+}
+
+
+@media only screen and (max-width: 480px) {
+    
+    
+    
+}

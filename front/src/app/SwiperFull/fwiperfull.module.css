@@ -1,0 +1,52 @@
+.boxbtn {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 15px; /* فاصله از پایین اسلایدر */
+    right: 15px;  /* فاصله از سمت راست اسلایدر */
+    z-index: 10;
+    
+  }
+  
+ 
+  .butn:hover{
+    background: #bfbdbdbc;
+
+  }
+
+  .butn{
+    background: #f7f7f7;
+
+    border-radius: 50%;
+    padding: 4px;
+    margin: 20px;
+    font-weight: bolder;
+    color: black;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+  .mySwiper {
+    
+    position: relative; /* اطمینان از اینکه اسلایدر والد نسبی است */
+  }
+  
+
+  @media only screen and (max-width: 480px) {
+
+    .butn{
+        background: #f7f7f7;
+        border-radius: 50%;
+        padding: 4px;
+        margin: 4px;
+        font-weight: lighter;
+        color: black;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    }
+    
+    .mui-i4bv87-MuiSvgIcon-root {
+font-size: none !important;
+background-color: red !important;
+    }
+}

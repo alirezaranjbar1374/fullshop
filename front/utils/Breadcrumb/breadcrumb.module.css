@@ -1,0 +1,20 @@
+.breadcrumb a {
+    color: rgb(144, 140, 140);
+  }
+  .breadcrumb span {
+    position: relative;
+    top: 2px;
+    font-family: tanha !important;
+
+  }
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    margin-bottom: 15px;
+    font-size: 15px;
+    gap: 9px;
+    font-family: tanha !important;
+
+  }
+  
